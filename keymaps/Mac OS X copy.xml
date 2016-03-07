@@ -28,6 +28,10 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
