@@ -1,4 +1,8 @@
 <keymap version="1" name="Mac OS X copy 1" parent="Mac OS X">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="meta f4" />
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
     <keyboard-shortcut first-keystroke="meta divide" />
@@ -19,6 +23,7 @@
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
+  <action id="EditorSelectWord" />
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta g" />
     <keyboard-shortcut first-keystroke="alt g" />
