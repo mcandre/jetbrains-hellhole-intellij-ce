@@ -3,6 +3,11 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCutLineEnd">
@@ -27,6 +32,10 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
